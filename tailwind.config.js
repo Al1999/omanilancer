@@ -18,7 +18,9 @@ module.exports = {
 
     fontFamily: {
       Jali_med:["Jali_med"],
-      almushaf:["almushaf"]
+      almushaf:["almushaf"],
+      falak_b:["falak_b"],
+      falak_r:["falak_r"]
     }
   },
   plugins: [],

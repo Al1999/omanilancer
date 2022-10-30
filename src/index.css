@@ -10,3 +10,11 @@
     font-family: "almushaf";
     src: url("../src/fonts/almushaf.ttf");
 }
+@font-face {
+    font-family: "falak_b";
+    src: url("../src/fonts/FALAK_BOLD.ttf");
+}
+@font-face {
+    font-family: "falak_r";
+    src: url("../src/fonts/FALAK_REGULAR.ttf");
+}

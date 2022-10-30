@@ -12,10 +12,10 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <motion.div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-zinc-900 text-xl'>
+    <motion.div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-purple-700 text-xl'>
         <ul className='hidden md:flex gap-6 mr-6 font-bold  '>
         <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}} >
-          <button className='hover:bg-black hover:text-white font-Jali_med transition border-black py-2 px-4 border-4 duration-300 ease-in-out'>
+          <button className='hover:bg-purple-700 hover:text-white font-Jali_med transition border-purple-700 py-2 px-4 border-4 duration-300 ease-in-out'>
             تسجيل الدخول
           </button>
 
