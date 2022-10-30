@@ -27,5 +27,5 @@ module.exports = {
       falak_r:["falak_r"]
     }
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
