@@ -15,6 +15,11 @@ module.exports = {
       // => @media (min-width: 1440px) { ... }
     },
     extend: {},
+
+    fontFamily: {
+      Jali_med:["Jali_med"],
+      almushaf:["almushaf"]
+    }
   },
   plugins: [],
 }

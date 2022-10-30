@@ -1,9 +1,13 @@
+import Home from "./components/home";
+import Navbar from './components/navbar'
 
-
-
-function App() {
+const App = () => {
   return (
-    <div>hello</div>
+    <>
+      <Navbar/>
+      <Home/>
+    </>
+
   );
 }
 

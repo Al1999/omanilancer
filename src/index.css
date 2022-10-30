@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Jali_med";
+    src: url("../src/fonts/Jali_med.ttf");
+}
+@font-face {
+    font-family: "almushaf";
+    src: url("../src/fonts/almushaf.ttf");
+}
