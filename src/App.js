@@ -1,14 +1,15 @@
-import Home from "./components/home";
-import Navbar from './components/navbar';
-import Footer from './components/footer';
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+import Mainpage from './components/Mainpage/main';
+
+
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<Mainpage/>}/>
+      </Routes>
     </>
-
   );
 }
 
