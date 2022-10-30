@@ -12,11 +12,17 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <motion.div className='fixed w-full h-[80px] flex justify-between items-center px-4  text-purple-700 text-xl'>
-        <ul className='hidden md:flex gap-6 mr-6 font-bold  '>
+    <motion.div className='fixed w-full h-[80px] flex flex-col mt-10 py-4 justify-between items-center px-4  text-[#df2027] text-xl'>
+        <ul className='hidden md:flex gap-4 mr-6 font-bold  '>
         <motion.li initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.5, duration:1}} >
-          <button className='hover:bg-purple-700 hover:text-white font-Jali_med transition border-purple-700 py-2 px-4 border-4 duration-300 ease-in-out'>
-            تسجيل الدخول
+          <button className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
+          تسجيل الدخول
+          </button>
+          <button className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
+          نبذة عنا 
+          </button>
+          <button className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
+          الصفحة الرئيسية
           </button>
 
         </motion.li>
@@ -24,7 +30,6 @@ const Navbar = () => {
       <motion.div     initial={{ opacity: 0, y:20 }}
     animate={{ opacity: 0.8, y: 0 }}
     transition={{ duration: 1 }} className='ml-4'>
-      <div className='font-Jali_med font-bold text-2xl py-2 px-4 bg-black text-zinc-100 '>عماني لانسر</div>
       </motion.div>
 
       {/* Hamburger */}
