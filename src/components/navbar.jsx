@@ -27,9 +27,6 @@ const Navbar = () => {
       <div className='font-Jali_med font-bold text-2xl py-2 px-4 bg-black text-zinc-100 '>عماني لانسر</div>
       </motion.div>
 
-      {/* menu */}
-
-
       {/* Hamburger */}
       <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
