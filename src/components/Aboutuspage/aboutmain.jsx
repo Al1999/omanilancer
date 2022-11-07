@@ -1,15 +1,15 @@
 import React from 'react';
-import Home from "./home";
+import About from "./about";
 import Navbar from '../navbar';
 import Footer from '../footer';
 
-const Mainpage = () => {
+const Aboutmain = () => {
     return (
       <div>
         <Navbar />
-        <Home/>
+        <About/>
         <Footer/>
       </div>
     );
 };
-export default Mainpage;
+export default Aboutmain;

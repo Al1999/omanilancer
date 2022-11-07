@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {useNavigate} from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
     FaBars,
@@ -10,7 +10,7 @@ import {
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-
+  const navigate = useNavigate();
   return (
     <motion.div className='fixed w-full h-[80px] flex flex-col mt-10 py-4 justify-between items-center px-4  text-[#df2027] text-xl'>
         <ul className='hidden md:flex gap-4 mr-6 font-bold  '>
@@ -18,10 +18,10 @@ const Navbar = () => {
           <button className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
           تسجيل الدخول
           </button>
-          <button className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
+          <button onClick={() => navigate('/about')}   className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
           نبذة عنا 
           </button>
-          <button className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
+          <button onClick={() => navigate('/')} className='hover:text-white font-Jali_med transition  py-2 px-10 duration-300 ease-in-out'>
           الصفحة الرئيسية
           </button>
 

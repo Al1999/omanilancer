@@ -18,3 +18,7 @@
     font-family: "falak_r";
     src: url("../src/fonts/FALAK_REGULAR.ttf");
 }
+@font-face {
+    font-family: "ubuntu";
+    src: url("../src/fonts/alfont_com_Ubuntu-Arabic_B.ttf");
+}
