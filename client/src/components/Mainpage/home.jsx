@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import {useNavigate} from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div name = 'home'   className='w-full h-screen'> 
       <div className ='w-full h-screen overflow-hidden bg-hero  bg-no-repeat bg-center overflow-hidden bg-cover md:bg-fixed sm:bg-scroll'>
@@ -15,7 +18,7 @@ const Home = () => {
 
               <div className='mt-12 flex md:flex-row sm:flex-row gap-12'>
                 <motion.button initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.9, duration:1}} 
-                 className="py-2 px-3 font-geomatik  text-zinc-200 bg-[#3baca0] border-2
+                 onClick={() => navigate('/search')} className="py-2 px-3 font-geomatik  text-zinc-200 bg-[#3baca0] border-2
                  border-[#3baca0] hover:bg-transparent hover:text-[#3baca0] ">Search for Creators</motion.button >
                  <motion.button initial={{opacity:0}} animate={{opacity:1, y:[20,0] }} transition={{ delay: 0.9, duration:1}} 
                    className="py-2 px-3 font-geomatik border-2 text-[#df2027]
