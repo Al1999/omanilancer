@@ -30,3 +30,39 @@
     font-family: "quicksandR";
     src: url("../src/fonts/Quicksand-Regular.ttf");
 }
+@font-face {
+    font-family: "besan";
+    src: url("../src/fonts/Besan.otf");
+}
+@font-face {
+    font-family: "amonosdisplay-regula";
+    src: url("../src/fonts/amonosdisplay-regular.otf");
+}
+@font-face {
+    font-family: "Nord-Black";
+    src: url("../src/fonts/Nord-Black.ttf");
+}
+@font-face {
+    font-family: "Bjorn Regular";
+    src: url("../src/fonts/Bjorn Regular.otf");
+}
+@font-face {
+    font-family: "Alcova Pro";
+    src: url("../src/fonts/Alcova Pro.ttf");
+}
+@font-face {
+    font-family: "Quirk";
+    src: url("../src/fonts/Quirk.otf");
+}
+@font-face {
+    font-family: "Nord-Book";
+    src: url("../src/fonts/Nord-Book.ttf");
+}
+@font-face {
+    font-family: "Brooklyn Normal 1";
+    src: url("../src/fonts/Brooklyn Normal 1.otf");
+}
+@font-face {
+    font-family: "Geomatik";
+    src: url("../src/fonts/Geomatik.otf");
+}

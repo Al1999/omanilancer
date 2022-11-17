@@ -16,7 +16,7 @@ module.exports = {
     },
     extend: {
       backgroundImage : {
-        'hero' : "url(../src/assets/Dust-Textures-1.jpg)",
+        'hero' : "url(../src/assets/rm218-bb-07.jpg)",
         },
     },
 
@@ -27,7 +27,15 @@ module.exports = {
       falak_r:["falak_r"],
       ubuntu:["ubuntu"],
       quickR:["quicksandR"],
-      quickB:["quicksandB"]
+      quickB:["quicksandB"],
+      besan:["besan"],
+      amonos:["amonosdisplay-regular"],
+      nord:["Nord-Black"],
+      bjorn:["Bjorn Regular"],
+      alcova:["Alcova Pro"],
+      quirk:["Quirk"],
+      nordr:["Nord-Book"],
+      geomatik:["Geomatik"]
     }
   },
   plugins: [require("daisyui")],
