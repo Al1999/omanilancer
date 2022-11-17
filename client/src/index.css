@@ -22,3 +22,11 @@
     font-family: "ubuntu";
     src: url("../src/fonts/alfont_com_Ubuntu-Arabic_B.ttf");
 }
+@font-face {
+    font-family: "quicksandB";
+    src: url("../src/fonts/Quicksand-SemiBold.ttf");
+}
+@font-face {
+    font-family: "quicksandR";
+    src: url("../src/fonts/Quicksand-Regular.ttf");
+}

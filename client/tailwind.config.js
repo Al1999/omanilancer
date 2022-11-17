@@ -25,7 +25,9 @@ module.exports = {
       almushaf:["almushaf"],
       falak_b:["falak_b"],
       falak_r:["falak_r"],
-      ubuntu:["ubuntu"]
+      ubuntu:["ubuntu"],
+      quickR:["quicksandR"],
+      quickB:["quicksandB"]
     }
   },
   plugins: [require("daisyui")],
